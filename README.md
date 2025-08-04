@@ -29,7 +29,16 @@ The client then clipped the videos as short videos and labelled them as flipping
 
 ## PERFORMANCE EVALUATION
 
+### TRAINING v/s VALIDATION LOSS
+
 <img width="1188" height="764" alt="Apziva_P4_Train_Val_Loss" src="https://github.com/user-attachments/assets/e764bf2a-8f35-4c28-9d36-5a6c00c3983e" />
+
+### RESULTS
+
+- The pretrained ResNet18 model returns a very good F-1 score on the unseen data of 0.92 in predicting a flip. 
+- This indicates that the current model itself achieves the desired objective as well as maintains a balance b/w precision and recall (for flip class).
+- Hence, we need not further tune the current model as it could either over-engineering the model or would not yield any significant difference.
+
 
 
 ## REAL-TIME DEPLOYMENT ARCHITECTURE
