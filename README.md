@@ -39,7 +39,15 @@ The client then clipped the videos as short videos and labelled them as flipping
 - This indicates that the current model itself achieves the desired objective as well as maintains a balance b/w precision and recall (for flip class).
 - Hence, we need not further tune the current model as it could either over-engineering the model or would not yield any significant difference.
 
+### CONFIDENCE OF PREDICTIONS
 
+<img width="1646" height="596" alt="Apziva_P4_Confidence_Intervals_Dist" src="https://github.com/user-attachments/assets/dcbad989-927c-452a-998c-1c68752dac79" />
+
+#### OBSERVATIONS
+
+- The histogram shows a strong peak above the 0.8 mark, indicating that the model is highly confident in the majority of its predictions.
+- The boxplot reveals that both flip and notflip classes have a narrow interquartile range (IQR), with median confidence scores close to 1.0 -implying a reliable performance across both classes.
+- Although few samples fall below the 0.6–0.7 range, visible in the left tail of the histogram and as outliers in the boxplot. These may be borderline or ambiguous images worth reviewing for improvement.
 
 ## REAL-TIME DEPLOYMENT ARCHITECTURE
 
