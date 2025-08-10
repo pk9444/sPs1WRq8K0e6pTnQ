@@ -53,4 +53,11 @@ The client then clipped the videos as short videos and labelled them as flipping
 
 <img width="635" height="460" alt="Apziva_p4_dep_arch" src="https://github.com/user-attachments/assets/7340c7a4-8f9f-465e-a5b8-8d67f0009890" />
 
+## DEMO 
 
+- Start CMD in the local directory
+- Run `` python app.py``
+- Send a POST request to ``http://localhost:5000/predict-sequence``
+- Upload images as the payload
+
+  <img width="1976" height="958" alt="Apziva_P4_Demo" src="https://github.com/user-attachments/assets/51efa1d7-ff4b-49ec-b551-762d141691fd" />
